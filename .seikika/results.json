@@ -1,0 +1,133 @@
+{
+  "evidence": {
+    "docs": {
+      "doc:docs/subsystems/gateway-routing.md": {
+        "links-resolve": [
+          "89cca440",
+          "dcdd83a9"
+        ]
+      },
+      "doc:docs/subsystems/sync-backup.md": {
+        "links-resolve": [
+          "4d0094bd"
+        ]
+      }
+    },
+    "repo-hygiene": {
+      "repository:seikika/magpie": {
+        "has-codeowners": [
+          "e92c3922"
+        ]
+      }
+    }
+  },
+  "format": "seikika-report/v1",
+  "portal": "magpie",
+  "results": {
+    "docs": {
+      "doc:AGENTS.md": {
+        "level": "bronze"
+      },
+      "doc:CLAUDE.md": {
+        "level": "bronze"
+      },
+      "doc:LESSONS.md": {
+        "level": "bronze"
+      },
+      "doc:README.md": {
+        "level": "bronze"
+      },
+      "doc:README.zh-CN.md": {
+        "level": "bronze"
+      },
+      "doc:docs/code-standards.md": {
+        "level": "bronze"
+      },
+      "doc:docs/contributors.md": {
+        "level": "bronze"
+      },
+      "doc:docs/integrating.md": {
+        "level": "bronze"
+      },
+      "doc:docs/reference.md": {
+        "level": "bronze"
+      },
+      "doc:docs/session-relocation.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/README.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/agent-wiring.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/artifacts.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/claude-subscription-bridge.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/fast-tools.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/gateway-middleware.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/gateway-request-hooks.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/gateway-routing.md": {
+        "failing": {
+          "links-resolve": 2
+        },
+        "level": "none"
+      },
+      "doc:docs/subsystems/gateway-sessions.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/gui-shell.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/library.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/mcp-router.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/memory.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/plugin-runtime.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/plugin-tools.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/provider-plugins.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/providers-accounts.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/skill-router.md": {
+        "level": "bronze"
+      },
+      "doc:docs/subsystems/sync-backup.md": {
+        "failing": {
+          "links-resolve": 1
+        },
+        "level": "none"
+      }
+    },
+    "repo-hygiene": {
+      "repository:seikika/magpie": {
+        "failing": {
+          "codeowners-catch-all": 0,
+          "has-codeowners": 1,
+          "owners-are-teams": 0
+        },
+        "level": "none"
+      }
+    }
+  }
+}
